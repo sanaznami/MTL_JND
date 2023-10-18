@@ -1,7 +1,8 @@
 <h1 align="center"> LASeR-JND: Lightweight Multitask Learning for Robust JND Prediction using Latent Space and Reconstructed Frames</h1>
+
 ## Introduction
 
-This is the implementation of ... paper in Tensorflow.
+This is the implementation of LASeR-JND: Lightweight Multitask Learning for Robust JND Prediction using Latent Space and Reconstructed Frames paper in Tensorflow.
 
 **Abstract**
 
@@ -28,7 +29,7 @@ Our evaluation is conducted on [VideoSet](https://ieee-dataport.org/documents/vi
 
 
 ## Pre-trained Models
-The pre-trained JND models are saved ....
+Our pre-trained models can be downloaded using this link.
 
 
 ## Usage
