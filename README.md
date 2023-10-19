@@ -69,12 +69,17 @@ Our pretrained models are capable of predicting JND values, and they can also be
 	     
 ### Testing
 
-For prediction with LAT model, the following commands can be used.
+For prediction with LAT or REC model, the following commands can be used.
 
-    python3 LAT.py test --jnd_value JND1 --data_dir "Path-to-the-rootdir/" --model_weights_path "Path-to-the-pretrained-model/" --result_path "Path-to-save-test-results/" --JND_Recon_Models_Path "Path-to-the-pretrained-JND-Reconstruction-models/"
+    python3 [LAT.py or REC.py] test --jnd_value [JND1 or JND2 or JND3] --data_dir "Path-to-the-rootdir/" --model_weights_path "Path-to-the-pretrained-model/" --result_path "Path-to-save-test-results/" --JND_Recon_Models_Path "Path-to-the-pretrained-JND-Reconstruction-models/"
+
+For prediction with E2ELAT or E2EREC model, the following commands can be used.
+
+    python3 [E2ELAT.py or E2EREC.py] test --jnd_value [JND1 or JND2 or JND3] --data_dir "Path-to-the-rootdir/" --model_weights_path "Path-to-the-pretrained-model/" --result_path "Path-to-save-test-results/" --ImgReconstrution_Model_Path "Path-to-the-pretrained-Img-Reconstruction-models/"
 
 
 
+ 
 ### Training
 
 
