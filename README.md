@@ -88,8 +88,13 @@ For training with LAT or REC model, the following commands can be used.
 
     python3 [LAT.py or REC.py] train --jnd_value [JND1 or JND2 or JND3] --data_dir "Path-to-the-rootdir/" --checkpoint_path "Path-to-save-checkpoints-during-training/" --csv_log_path "Path-to-save-CSV-logs-during-training/" --JND_Recon_Models_Path "Path-to-the-pretrained-JND-Reconstruction-models/" --epochs Number-of-training-epochs --batch_size Batch-size-for-training --learning_rate Learning-rate-for-optimizer
 
+For training with E2E-LAT or E2E-REC model, the following commands can be used.
 
+    python3 [E2ELAT.py or E2EREC.py] train --jnd_value [JND1 or JND2 or JND3] --data_dir "Path-to-the-rootdir/" --checkpoint_path "Path-to-save-checkpoints-during-training/" --csv_log_path "Path-to-save-CSV-logs-during-training/" --ImgReconstrution_Model_Path "Path-to-the-pretrained-Img-Reconstruction-models/" --epochs Number-of-training-epochs --batch_size Batch-size-for-training --learning_rate Learning-rate-for-optimizer
 
+For training with MJ-LAT or MJ-REC model, the following commands can be used.
+
+    python3 [MJLAT.py or MJREC.py] train --jnd_value [JND1 or JND2 or JND3] --data_dir "Path-to-the-rootdir/" --checkpoint_path "Path-to-save-checkpoints-during-training/" --csv_log_path "Path-to-save-CSV-logs-during-training/" --JND_Recon_Models_Path "Path-to-the-pretrained-JND-Reconstruction-models/" --epochs Number-of-training-epochs --batch_size Batch-size-for-training --learning_rate Learning-rate-for-optimizer
 
 
 ## Citation
