@@ -123,7 +123,7 @@ def create_model(ImgReconstrution_Model_Path):
     ModelREC = create_encoder_decoder(input_img, num_filters=128, latent_dim=192)
     
     # Load weights and freeze layers
-    ModelName = 'best_model_MSEB8.h5'
+    ModelName = 'ImgReconstruction.h5'
     ModelREC.load_weights(os.path.join(ImgReconstrution_Model_Path, ModelName))
     
     for layer in ModelREC.layers[0:]:
