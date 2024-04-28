@@ -112,11 +112,12 @@ The attention layer used in the LAT-based models is based on [Squeeze-and-Excita
 
 If our work is useful for your research, please cite our paper:
 
-    @inproceedings{nami2024lightweight,
+    @article{nami2024lightweight,
     	title={Lightweight Multitask Learning for Robust JND Prediction using Latent Space and Reconstructed Frames},
 	author={Nami, Sanaz and Pakdaman, Farhad and Hashemi, Mahmoud Reza and Shirmohammadi, Shervin and Gabbouj, Moncef},
 	journal={IEEE Transactions on Circuits and Systems for Video Technology},
-	year={2024}
+	year={2024},
+ 	publisher={IEEE}
     }
 
 
