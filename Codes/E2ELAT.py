@@ -245,7 +245,7 @@ def create_model(ImgReconstrution_Model_Path):
     ModelLAT = create_encoder_decoder(input_img, num_filters=128, latent_dim=192)
     
     # Load weights and freeze layers
-    ModelName = 'best_model_MSEB8.h5'
+    ModelName = 'ImgReconstruction.h5'
     ModelLAT.load_weights(os.path.join(ImgReconstrution_Model_Path, ModelName))
     
     for layer in ModelLAT.layers[0:]:
