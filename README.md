@@ -101,10 +101,10 @@ For training with MJ-LAT or MJ-REC model, the following commands can be used.
 
 If our work is useful for your research, please cite our paper:
 
-    @inproceedings{nami2024laser,
-    	title={LASeR-JND: Lightweight Multitask Learning for Robust JND Prediction using Latent Space and Reconstructed Frames},
+    @inproceedings{nami2024lightweight,
+    	title={Lightweight Multitask Learning for Robust JND Prediction using Latent Space and Reconstructed Frames},
 	author={Nami, Sanaz and Pakdaman, Farhad and Hashemi, Mahmoud Reza and Shirmohammadi, Shervin and Gabbouj, Moncef},
-	journal={},
+	journal={IEEE Transactions on Circuits and Systems for Video Technology},
 	year={2024}
     }
 
