@@ -29,7 +29,7 @@ Our evaluation is conducted on [VideoSet](https://ieee-dataport.org/documents/vi
 
 
 ## Pre-trained Models
-Our pre-trained models can be downloaded using this link.
+Our pre-trained models can be downloaded using [this link](https://zenodo.org/records/11080876/files/FALCON_IEEETCSVT2024_WP3_v1.0.zip?download=1), from the [Zenodo repository](https://zenodo.org/records/11080876).
 
 
 ## Usage
