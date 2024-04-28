@@ -99,6 +99,17 @@ For training with MJ-LAT or MJ-REC model, the following commands can be used.
 
 ## Citation
 
+The attention layer used in the LAT-based models is based on [Squeeze-and-Excitation Networks](https://openaccess.thecvf.com/content_cvpr_2018/html/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.html) paper.
+
+
+    @inproceedings{hu2018squeeze,
+    	title={Squeeze-and-excitation networks},
+	author={Hu, Jie and Shen, Li and Sun, Gang},
+	booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+	year={2018}
+    }
+
+
 If our work is useful for your research, please cite our paper:
 
     @inproceedings{nami2024lightweight,
